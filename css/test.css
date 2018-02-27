@@ -177,7 +177,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: rgb(128, 166, 248);
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -190,7 +190,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -201,7 +201,7 @@ img::-moz-selection {
     background-color: rgb(128, 166, 248);
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #24491f;
+    color: #F05F40;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #24491f;
@@ -216,7 +216,7 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
+/* header.masthead {
     text-align: center;
     color: white;
     background-image: url("../img/team/wall.png");
@@ -227,7 +227,7 @@ header.masthead {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  } */
   
   header.masthead .intro-text {
     padding-top: 150px;
