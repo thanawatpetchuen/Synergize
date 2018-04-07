@@ -1,0 +1,58 @@
+[debug] [2018-04-02T08:11:20.909Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T08:11:20.909Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
+[debug] [2018-04-02T08:11:20.909Z] CLI Version:   3.17.7
+[debug] [2018-04-02T08:11:20.909Z] Platform:      win32
+[debug] [2018-04-02T08:11:20.909Z] Node Version:  v8.9.4
+[debug] [2018-04-02T08:11:20.909Z] Time:          Mon Apr 02 2018 15:11:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-04-02T08:11:20.909Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T08:11:20.980Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T08:11:20.995Z] > authorizing via signed-in user
+[debug] [2018-04-02T08:11:21.000Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-02T08:11:21.000Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/zXjPVgu3m12JnZBUT84PvMT95nq_TMeRWZJIG6R4C3jBRTDEph9mIWTPHYRxi6rE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 02 2018 15:11:21 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-04-02T08:11:21.481Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T08:11:21.530Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/synergize-sng  
+  
+ Mon Apr 02 2018 15:11:21 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-04-02T08:11:34.531Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T08:11:34.533Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/synergize-sng/tokens  
+  
+ Mon Apr 02 2018 15:11:34 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-04-02T08:11:35.590Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'synergize-sng'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[debug] [2018-04-02T08:11:54.866Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T08:11:54.866Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only hosting
+[debug] [2018-04-02T08:11:54.878Z] CLI Version:   3.17.7
+[debug] [2018-04-02T08:11:54.878Z] Platform:      win32
+[debug] [2018-04-02T08:11:54.878Z] Node Version:  v8.9.4
+[debug] [2018-04-02T08:11:54.879Z] Time:          Mon Apr 02 2018 15:11:54 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-04-02T08:11:54.879Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T08:11:54.900Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T08:11:54.911Z] > authorizing via signed-in user
+[debug] [2018-04-02T08:11:54.914Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/synergize-sng  
+  
+ Mon Apr 02 2018 15:11:54 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-04-02T08:12:02.051Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T08:12:02.051Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/synergize-sng/tokens  
+  
+ Mon Apr 02 2018 15:12:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-04-02T08:12:03.708Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'synergize-sng'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-04-02T08:12:21.830Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/synergize-sng/uploads/-L94PNUNfQIzNq1xcgBG?fileCount=315&message=  
+  
+ Mon Apr 02 2018 15:12:21 GMT+0700 (SE Asia Standard Time)

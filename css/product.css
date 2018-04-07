@@ -1,0 +1,54 @@
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+
+.loader {
+    margin: auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid rgb(30, 30, 233);
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-left: 16px solid #000;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+section.masthead .overlay {
+  position: absolute;
+  height: 280px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+section.masthead {
+  height: 280px;
+  background-image: url("https://www.vertivco.com/globalassets/images/main-images/1600x280---mini/cp-ups-gl-1600x280_mg_3933-1---copy-use-typelist_mini.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.masthead .img {
+  top: 0;
+  width: 100%;
+}
+
+#categories .col-lg-4 {
+  padding-bottom: 3em;
+}

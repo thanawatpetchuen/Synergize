@@ -1,0 +1,21 @@
+main #partnership img {
+    max-height: 180px;
+    height: 150px;
+    max-width: 70%;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    main #partnership img {
+        max-height: 180px;
+        height: 150px;
+        max-width: 100%;
+        width: auto;
+        text-align: center;
+        margin: auto;
+    }
+  }
+  
+
